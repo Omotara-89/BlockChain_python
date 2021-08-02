@@ -67,6 +67,27 @@ Below are the images of the code from the terminal and the successful funding an
   
 # Section 4- Transactions in Local Ethereum Network:
 
+To test the wallet in the local Network with a consensus of Proof of Authority, two of the Ethereum addresses (address1 and address2) were instatiated and the following was done:
+
+ •	Add one of the ETH addresses to the pre-allocated accounts in ebunet.json.
+ 
+ ![](ScreenShot/ebunetjson.PNG)
+ 
+  •	Delete the geth folder in each node, then re-initialize using geth --datadir nodeX init networkname.json. This will create a new chain, and will pre-fund the new account.
+  
+  ![](ScreenShot/Re-inititalzing1.PNG)
+  
+  ![](ScreenShot/Re-inititalzing2.PNG)
+  
+  ![](ScreenShot/Node1_running.PNG)
+  
+  • Send a transaction from the pre-funded address within the wallet to another from MyCrypto, then copy the txid into MyCrypto's TX Status
+  
+  ![](ScreenShot/sending_ETH1.PNG)
+  
+   ![](ScreenShot/sending_ETH2.PNG)
+
+
   
 
 
